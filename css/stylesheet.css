@@ -33,19 +33,55 @@ body{
 .page{
     color: var(--primary-text-color);
 }
+.hero{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--footer-maps-link);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.lists-of-page{
+    list-style: none;
+}
+/* advantages styling */
+.advantages-article{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-text-color);
+}
+.advantages-text{
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--secondary-text-color);
+}
 /* logo */
 .logo-header{
     font-family: raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
     color: var(--primary-text-color)
+    
 }
 /* logo stile */
 .logo-header-style{
     color: var(--acent-color);
 }
-
+.visual-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* navigation */
 .site-nav{
     background-color: var(--background-color-body);
@@ -80,6 +116,11 @@ color: var(--acent-color);
     background-color: var(--acent-color);
 }
 /* projects */
+.our-projects{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
 .projects-text{
     color: var(--secondary-text-color);
     font-size: 16px;
@@ -87,6 +128,22 @@ color: var(--acent-color);
 }
 .projects-title{
     letter-spacing: 0.06em;
+}
+/* our team */
+.our-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+.our-team-article{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.our-team-text{
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--secondary-text-color);
 }
 /* footer links */
 .footer{
@@ -98,6 +155,7 @@ color: var(--acent-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
     color: var(--background-color-body);
 }
 .footer-logo-stile{
