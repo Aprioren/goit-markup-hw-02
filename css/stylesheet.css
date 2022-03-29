@@ -49,6 +49,7 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
     color: var(--primary-text-color);
 }
 .advantages-text{
@@ -157,11 +158,14 @@ color: var(--acent-color);
     line-height: 1.16;
 }
 .projects-text{
-    color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.8;
+    color: var(--secondary-text-color);
 }
 .projects-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 /* our team */
@@ -210,13 +214,14 @@ color: var(--acent-color);
     color: var(--acent-color);
 }
 .contacts-footer{
-    color: var(--footer-adress-color);
-    
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
+
+    color: var(--footer-adress-color);
 }
+
 .contacts-footer:hover,
 .contacts-footer:focus{
     color: var(--acent-color);
