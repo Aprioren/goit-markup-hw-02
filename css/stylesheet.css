@@ -25,7 +25,7 @@ header{
 }
 /* body */
 body{
-    font-family: Roboto, ssans-serif;
+    font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     background-color: var(--background-color-body);
     color: var(--primary-text-color);
@@ -87,6 +87,9 @@ body{
     background-color: var(--background-color-body);
 }
 .nav-links{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
     
     text-decoration: none;
@@ -97,6 +100,9 @@ body{
 }
 /* header links contacts */
 .contacts-link{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     
     text-decoration: none;
@@ -171,6 +177,8 @@ color: var(--acent-color);
     
     font-style: normal;
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;  
 }
 .maps-link:hover,
 .maps-link:focus{
@@ -181,6 +189,8 @@ color: var(--acent-color);
     
     text-decoration: none;
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .contacts-footer:hover,
 .contacts-footer:focus{
