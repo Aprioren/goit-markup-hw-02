@@ -112,6 +112,31 @@ body{
 color: var(--acent-color);
 }
 /* buttons */
+
+.button-first-page{
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+
+    /* padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    min-width: 200px; */
+
+    color: var(--background-color-body);
+    background-color: var(--acent-color);
+}
+
+.button-first-page:hover,
+.button-first-page:focus{
+    color: var(--acent-color);
+    background-color: var(--background-color-body);
+}
 .nav-buttons{
     cursor: pointer;
     font-family: inherit;
